@@ -183,7 +183,7 @@
   </div>
   <!-- /.content-wrapper -->
   <footer class="main-footer">
-    <strong>Copyright &copy; 2021 By SMP NEGERI 7 TANGERANG SELATAN.</strong>
+    <strong>Copyright &copy; <script>document.write(new Date().getFullYear())</script> By SMP NEGERI 7 TANGERANG SELATAN.</strong>
     All rights reserved.
     <div class="float-right d-none d-sm-inline-block">
       <b>Version</b> 1.0.0

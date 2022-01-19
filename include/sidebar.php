@@ -11,7 +11,7 @@
   <!-- Brand Logo -->
   <a href="index.php" class="brand-link">
     <img src="assets/img/img_properties/7tangsel.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-    <span class="brand-text font-weight-light">UANG KAS</span>
+    <span class="brand-text font-weight-light">E-KAS</span>
   </a>
 
   <!-- Sidebar -->
@@ -93,6 +93,13 @@
           <a href="riwayat_pengeluaran.php" class="nav-link">
             <i class="fas fa-stopwatch nav-icon"></i>
             <p>Riwayat Pengeluaran</p>
+          </a>
+        </li>
+        <div class="dropdown-divider"></div>
+        <li class="nav-item">
+          <a href="kontributor.php" class="nav-link">
+            <i class="fas fa-donate nav-icon"></i>
+            <p>Kontributor Kami</p>
           </a>
         </li>
       </ul>

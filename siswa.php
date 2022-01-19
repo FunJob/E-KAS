@@ -71,10 +71,10 @@
                         <div class="form-group">
                           <label>Jenis Kelamin</label><br>
                           <input type="radio" id="pria" name="jenis_kelamin" value="pria"> <label for="pria">Pria</label> |
-                          <input type="radio" id="wanita" name="jenis_kelamin" value="wanita"> <label for="wanita">Wanita</label>
+                          <input type="radio" id="wanita" name="jenis_kelamin" valuse="wanita"> <label for="wanita">Wanita</label>
                         </div>
                         <div class="form-group">
-                          <label for="no_telepon">No. Telepon</label>
+                          <label for="no_telepon">NISN</label>
                           <input type="number" name="no_telepon" id="no_telepon" class="form-control">
                         </div>
                         <div class="form-group">
@@ -109,7 +109,7 @@
                     <th>No</th>
                     <th>Nama Siswa</th>
                     <th>Jenis Kelamin</th>
-                    <th>No. Telepon</th>
+                    <th>NISN</th>
                     <th>Email</th>
                     <?php if ($_SESSION['id_jabatan'] !== '3'): ?>
                       <th>Aksi</th>
@@ -159,7 +159,7 @@
                                       <?php endif ?>
                                     </div>
                                     <div class="form-group">
-                                      <label for="no_telepon<?= $ds['id_siswa']; ?>">No. Telepon</label>
+                                      <label for="no_telepon<?= $ds['id_siswa']; ?>">NISN</label>
                                       <input type="number" name="no_telepon" value="<?= $ds['no_telepon']; ?>" id="no_telepon<?= $ds['id_siswa']; ?>" class="form-control">
                                     </div>
                                     <div class="form-group">
@@ -193,7 +193,7 @@
   </div>
   <!-- /.content-wrapper -->
   <footer class="main-footer">
-    <strong>Copyright &copy; 2021 By SMP NEGERI 7 TANGERANG SELATAN.</strong>
+    <strong>Copyright &copy; <script>document.write(new Date().getFullYear())</script> By SMP NEGERI 7 TANGERANG SELATAN.</strong>
     All rights reserved.
     <div class="float-right d-none d-sm-inline-block">
       <b>Version</b> 1.0.0

@@ -30,9 +30,9 @@
 <html>
 
 <meta property="og:title" content="Aplikasi Pengelolaan Uang Kas" />
-<meta property="og:description" content="Aplikasi kelola uang kas berbasis website untuk kelas 91 kelompok B SMP NEGERI 7 TANGERANG SELATAN." />
-<meta property="og:url" content="http://0300-94-140-8-78.ngrok.io/kelolaKas/login.php" />
-<meta property="og:image" content="http://0300-94-140-8-78.ngrok.io/kelolaKas/assets/img/img_properties/7tangsel.png" />
+<meta property="og:description" content="Aplikasi pengelolaan uang kas berbasis website untuk kelas 91 kelompok B SMP NEGERI 7 TANGERANG SELATAN." />
+<meta property="og:url" content="http://ekas.x10.bz/" />
+<meta property="og:image" content="http://ekas.x10.bz/assets/img/img_properties/7tangsel.png" />
 
 <head>
   <?php include 'include/css.php'; ?>
@@ -59,12 +59,23 @@
 	    transform: translate(-50%, -55%);
 	}
 </style>
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GC91RCS309"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GC91RCS309');
+</script>
+  
 </head>
 <body>
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-lg-4 mx-5 py-4 px-5 text-dark rounded border border-dark" style="background-color: rgba(180,190,196,.6);">
-				<h3 class="text-center">UANG KAS</h3>
+				<h3 class="text-center">E-KAS</h3>
 				<form method="post">
 					<div class="form-group">
 						<label for="username"><i class="fas fa-fw fa-user"></i> Username</label>
@@ -86,7 +97,7 @@
 		<div style="background-color: transparent;" class="container-fluid mt-5">
 			<div class="row justify-content-center">
 				<div class="col-lg text-center text-white pt-4 pb-2">
-					<p>&copy; Copyright 2021. By SMP NEGERI 7 TANGERANG SELATAN. All Right Reserved.</p>
+                  <p>&copy; Copyright <script>document.write(new Date().getFullYear())</script>. By SMP NEGERI 7 TANGERANG SELATAN. All Right Reserved.</p>
 				</div>
 			</div>
 		</div>
