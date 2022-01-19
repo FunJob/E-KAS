@@ -44,7 +44,7 @@
       </g>
     </svg>
 
-    <h1 class="leaderboard__title"><span class="leaderboard__title--top">e-Kas</span><span class="leaderboard__title--bottom">Kontributor</span></h1>
+    <h1 class="leaderboard__title"><span class="leaderboard__title--top">E-KAS</span><span class="leaderboard__title--bottom">Kontributor</span></h1>
   </header>
   
   <main class="leaderboard__profiles">
